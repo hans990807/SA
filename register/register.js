@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    alert("hiiiiiiiii")
+    alert("菜陶桂")
  });
     /* 處理表單點擊事件
     var $form = $('#submit');
