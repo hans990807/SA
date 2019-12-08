@@ -1,0 +1,84 @@
+.top{
+    background-color: chocolate;
+    height:80px;
+    line-height:80px;
+}
+#topword{
+    color: cornsilk;
+    font-size: 50px;
+    margin: auto;
+    padding-left: 25px;
+    font-family:Microsoft JhengHei;  
+}
+#leftcontainer{
+    text-align: right;
+    padding-right: 10px;
+}
+.linkpage{
+    color:green;
+    font-size: 20px;
+    font-family:Microsoft JhengHei;  
+}
+/*以下是商品的css*/
+.product_item{
+    margin-left: 50px;
+    margin-right:50px;
+    margin-top: 30px;
+    height: 420px;
+    width: 350px;
+  
+border-style:solid;
+border-color: lightsalmon;
+
+}
+.card-header{
+    position:relative;
+    height: 55px;
+    line-height:55px;
+    background-color:rgb(252, 228, 198);
+    text-align: center;
+}
+.product_title{
+    font-family:Microsoft JhengHei;  
+    font-size: 20px;
+    font-weight:bold;
+    color:rgb(226, 107, 9);
+    letter-spacing:2px;
+    margin: 0%;
+
+}
+.product_img{
+    
+    padding-top: 10px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.product_price{
+    
+    padding-left: 20px;
+    font-family:Microsoft JhengHei; 
+    font-size: 35px;
+    font-weight:bold;
+    color: darkgreen;
+}
+.btn_pos{
+    position: relative;
+   padding-bottom: 0;
+   padding-right: 0;
+}
+.btn_cart{
+
+    background-color: chocolate; /* Green */
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+    font-family:Microsoft JhengHei;  
+}

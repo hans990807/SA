@@ -1,0 +1,63 @@
+.top{
+    background-color: chocolate;
+    height:80px;
+    line-height:80px;
+}
+#topword{
+    color: cornsilk;
+    font-size: 50px;
+    margin: auto;
+    padding-left: 25px;
+    font-family:Microsoft JhengHei;  
+}
+.linkpage{
+    color:green;
+    font-size: 20px;
+    font-family:Microsoft JhengHei;  
+}
+#leftcontainer{
+    text-align: right;
+    padding-right: 10px;
+}
+#requiring{
+    color:purple;
+    font-size: 15px;
+    font-family:Microsoft JhengHei;  
+    margin-top: 0;
+    margin-bottom: 0;
+}
+#formbox{
+    padding-left: 10px;
+}
+.detail{
+   
+    font-weight:bold;
+    color:green;
+    font-size: 23px;
+    font-family:Microsoft JhengHei;  
+}
+.inputstyle{
+border-color:rgb(73, 221, 73);    
+height: 30px;
+width: 80%;
+border-style:solid;
+border-radius: 5px;
+}
+
+#blank{
+padding-top: 15px;
+}
+
+#btn{
+    background-color: chocolate; /* Green */
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+    font-family:Microsoft JhengHei;  
+}

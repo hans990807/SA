@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>註冊頁面</title>
+    <link rel = "stylesheet" type = "text/css" href = "register.css" />
+    <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+     
+    <script  src="register.js"></script>
+   
+   
+</head>
+
+<body>
+    <div class="top">
+        <label id=topword><b>註冊會員系統</b></label>
+    </div>  
+        
+        <div>
+            <div id="leftcontainer">
+            <a href="index.html" class="linkpage">會員清單</a>
+            <a href="../product/product.html" class="linkpage">商品列表</a>
+            <a href="product.html" class="linkpage">購物車模組</a>
+          
+        </div></div>
+
+
+            <form id="registerForm" accept-charset="utf-8">
+                <div id="formbox">
+                <p id="requiring"><b>以下皆為必填項目</b></p>
+                <div id="blank">
+                    <label class="detail">姓名</label><br>
+                    <input class="inputstyle" name="name" maxlength="30" type="text" id="member_name" required="required">
+                </div>
+                <div id="blank">
+                    <label class="detail">手機</label><br>
+                    <input class="inputstyle" name="phone" maxlength="10" type="text" id="member_phone" required="required">
+                </div>
+                <div id="blank">
+                    <label class="detail">電郵</label><br>
+                    <input class="inputstyle" name="email" maxlength="100" type="email" id="member_email" required="required">
+                </div>
+                <div id="blank">
+                    <label class="detail">密碼</label><br>
+                    <input class="inputstyle" name="password" maxlength="30" type="password" id="member_password" required="required">
+                </div>
+                <div id="blank">
+                    <label class="detail">密碼確認</label><br>
+                    <input class="inputstyle" name="pwdconfirm" maxlength="30" type="password" id="member_password" required="required">
+                </div><br>
+               <button type="submit" id="btn"><b>確認送出</b></button>
+            </div>
+            </form>
+            
+          
+        </div>
+  
+
+
+</body>
+
+</html>
